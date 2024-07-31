@@ -7,7 +7,7 @@ const ProceedToCheckout = () => {
   const navigate = useNavigate();
 
   const handleProceedToCheckout = async () => {
-    await fetch(`https://capstone2-8wse.onrender.com/b6/cart/get-cart`, {
+    await fetch(`https://ecommerce-backend-7aob.onrender.com/cart/get-cart`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -22,7 +22,7 @@ const ProceedToCheckout = () => {
 
   const createOrder = async (data) => {
 
-    await fetch(`https://capstone2-8wse.onrender.com/b6/orders/checkout`, {
+    await fetch(`https://ecommerce-backend-7aob.onrender.com/orders/checkout`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

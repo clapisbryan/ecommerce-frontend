@@ -35,7 +35,7 @@ export default function Register() {
 		// Prevents the page redirection via form submission
 		e.preventDefault();
 
-		fetch(`https://capstone2-8wse.onrender.com/b6/users/register`, {
+		fetch(`https://ecommerce-backend-7aob.onrender.com/users/register`, {
 
 			method: 'POST',
 			headers: {

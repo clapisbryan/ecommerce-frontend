@@ -13,7 +13,7 @@ const OrderHistoryAdmin = () => {
 
   const fetchAllOrders = async () => {
     try {
-      const response = await fetch(`https://capstone2-8wse.onrender.com/b6/orders/all-orders`, {
+      const response = await fetch(`https://ecommerce-backend-7aob.onrender.com/orders/all-orders`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ const OrderHistoryAdmin = () => {
     try {
       const productDetailsMap = {};
       for (const productId of uniqueProductIds) {
-        const response = await fetch(`https://capstone2-8wse.onrender.com/b6/products/${productId}`, {
+        const response = await fetch(`https://ecommerce-backend-7aob.onrender.com/products/${productId}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',

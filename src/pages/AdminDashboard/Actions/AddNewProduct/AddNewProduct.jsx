@@ -18,7 +18,7 @@ const AddNewProduct = ({ fetchData }) => {
 
 	const handleCreateProduct = (e) => {
 		e.preventDefault();
-		fetch(`https://capstone2-8wse.onrender.com/b6/products/`, {
+		fetch(`https://ecommerce-backend-7aob.onrender.com/products/`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

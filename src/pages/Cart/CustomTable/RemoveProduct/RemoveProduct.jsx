@@ -7,7 +7,7 @@ const RemoveProduct = ({ productId, fetchData }) => {
 	const [modalShow, setModalShow] = useState(false);
 
 	const handleOnProceed = () => {
-		fetch(`https://capstone2-8wse.onrender.com/b6/cart/${productId}/remove-from-cart`, {
+		fetch(`https://ecommerce-backend-7aob.onrender.com/cart/${productId}/remove-from-cart`, {
 			method: "PATCH",
 			headers: {
 				'Content-Type': 'application/json',

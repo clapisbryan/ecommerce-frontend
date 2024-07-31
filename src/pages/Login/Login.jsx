@@ -18,7 +18,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    fetch(`https://capstone2-8wse.onrender.com/b6/users/login`, {
+    fetch(`https://ecommerce-backend-7aob.onrender.com/users/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -64,7 +64,7 @@ const Login = () => {
   }
 
   function retrieveUserDetails(token) {
-    fetch(`https://capstone2-8wse.onrender.com/b6/users/details`, {
+    fetch(`https://ecommerce-backend-7aob.onrender.com/users/details`, {
       headers: {
         Authorization: `Bearer ${token}`
       }

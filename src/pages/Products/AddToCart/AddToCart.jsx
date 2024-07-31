@@ -29,7 +29,7 @@ const AddToCart = ({ items }) => {
 		if (totalPrice == 0) {
 			setInvalidPrice(true);
 		} else {
-			fetch(`https://capstone2-8wse.onrender.com/b6/cart/add-to-cart`, {
+			fetch(`https://ecommerce-backend-7aob.onrender.com/cart/add-to-cart`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',

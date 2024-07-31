@@ -6,7 +6,7 @@ const DisableProduct = ({ item, isActive, fetchData }) => {
     const handleToggle = () => {
         const action = isActive ? 'archive' : 'activate';
 
-        fetch(`https://capstone2-8wse.onrender.com/b6/products/${item._id}/${action}`, {
+        fetch(`https://ecommerce-backend-7aob.onrender.com/products/${item._id}/${action}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

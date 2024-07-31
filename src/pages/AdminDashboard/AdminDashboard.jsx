@@ -14,7 +14,7 @@ const AdminDashboard = () => {
   }, [])
 
   const retrieveProducts = () => {
-    fetch(`https://capstone2-8wse.onrender.com/b6/products/all`, {
+    fetch(`https://ecommerce-backend-7aob.onrender.com/products/all`, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`
       }

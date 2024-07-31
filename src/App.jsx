@@ -32,7 +32,7 @@ const App = () => {
 
     getUserDetails();
 
-    fetch(`https://capstone2-8wse.onrender.com/b6/users/details`, {
+    fetch(`https://ecommerce-backend-7aob.onrender.com/users/details`, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`
       }
